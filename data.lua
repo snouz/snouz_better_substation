@@ -31,8 +31,8 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {type = "item", name = "substation", amount = 5},
-      {type = "item", name = "steel-plate", amount = 20}
+      {type = "item", name = "substation", amount = 4},
+      {type = "item", name = "steel-plate", amount = 15}
     },
     results = {{type="item", name="snouz_better_substation", amount=1}}
   },
@@ -86,8 +86,8 @@ data:extend(
     selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
     damaged_trigger_effect = hit_effects.entity({{-0.5, -2.5}, {0.5, 0.5}}),
     drawing_box_vertical_extension = 2,
-    maximum_wire_distance = 27,
-    supply_area_distance = 13.5,
+    maximum_wire_distance = 29,
+    supply_area_distance = 14.5,
     auto_connect_up_to_n_wires = 6,
     --maximum_wire_distance = 18,
     --supply_area_distance = 9,
@@ -98,16 +98,16 @@ data:extend(
         {
           filename = ENTITYPATH .. "snouz_better_substation.png",
           priority = "high",
-          width = 256,
-          height = 256,
+          width = 300,
+          height = 300,
           direction_count = 1,
           scale = 0.5,
         },
         {
           filename = ENTITYPATH .. "snouz_better_substation_shadow.png",
           priority = "high",
-          width = 256,
-          height = 256,
+          width = 300,
+          height = 300,
           direction_count = 1,
           scale = 0.5,
           shift = util.by_pixel(20, 0),
@@ -134,14 +134,14 @@ data:extend(
     connection_points = {
       {
         shadow = {
-          copper = util.by_pixel(75, 12),
-          green = util.by_pixel(78, 8),
-          red = util.by_pixel(52, 21)
+          copper = util.by_pixel(80, 12),
+          green = util.by_pixel(83, 8),
+          red = util.by_pixel(57, 21)
         },
         wire = {
-          copper = util.by_pixel(0, -57),
-          green = util.by_pixel(12, -60),
-          red = util.by_pixel(-12, -41)
+          copper = util.by_pixel(0, -68),
+          green = util.by_pixel(12, -71),
+          red = util.by_pixel(-12, -52)
         }
       },
     },

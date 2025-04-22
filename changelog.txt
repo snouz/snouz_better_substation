@@ -1,4 +1,11 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.1.0
+Date: 2025-04-22
+  Changes:
+    - Reworked entity graphics (now squarer)
+    - Made it a bit cheaper
+    - Added 1 tile range (in all directions)
+---------------------------------------------------------------------------------------------------
 Version: 1.0.1
 Date: 2025-04-21
   Changes:
